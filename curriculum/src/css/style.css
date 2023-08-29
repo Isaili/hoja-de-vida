@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+*{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.inicio{background: linear-gradient(0,0,0,.3), rgba(0,0,0,.3), url(../img/Imagen\ de\ WhatsApp\ 2023-08-28\ a\ las\ 17.58.19.jpg);
+    background-size: cover;
+    background-position:center center ;
+    color: rgb(223, 223, 223);
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+.inicio .contenido-seccion  header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: brown;
+    padding:  15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido-seccion header .logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow:0  0 35px #fff;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: brown;
+}
+.inicio  .contenido-seccion header  .nav-bar{
+    position: fixed;
+    background-color: rgb(249, 77, 77);
+    font-size: 20px;
+    width:  50px;
+    height: 50px;
+    border-radius:  50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.inicio  .contenido-seccion header  .nav-bar:hover{
+    box-shadow:0 0 35px #fff ;
+
+}
+.inicio  .contenido-seccion  .info{
+    padding-bottom: 130px;
+}
+.inicio  .contenido-seccion  .info h1{
+    font-size: 3rem;
+    letter-spacing:  5px;
+
+}
+.inicio  .contenido-seccion  .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+}
+
+/* estilos generales */
+.titulo-seccion{
+    
+    font-size: 1.5rem;
+
+}
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center; 
+
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin:  auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.sobremi .contenido-seccion .especial{
+    color: rgb(228, 41, 41);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion .isa{
+    color: #940253;
+    max-width: 700px;
+    margin: auto;
+  
+     
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+
+.sobremi .contenido-seccion .fila .col i{
+    color: crimson;
+    display: inline-block;
+    width: 40px;
+    border: 2px solid #940253;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.foto{
+   /* background-image: url(/src/img/Imagen\ de\ WhatsApp\ 2023-08-28\ a\ las\ 17.58.19.jpg); */
+     width: 20%;
+     height: 9vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
