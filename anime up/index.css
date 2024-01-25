@@ -1,0 +1,87 @@
+body{
+    background: #ffffff;
+}
+
+
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #c94a4a;
+    margin-bottom: 20px;
+}
+.header{
+    width:90%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden;
+}
+header nav{
+    line-height: 80px;
+
+}
+header nav a{
+display: flex;
+justify-content: center;
+color: #ffffff;
+text-decoration: none;
+padding: 4px 8px;
+line-height: normal;
+font-size: 50px;
+font-weight: bold;
+}
+
+.section1{
+    background: #c1b7b7;
+    width:100% ;
+    height: 300px;
+}
+.imagen1{
+
+    width: 300px;
+    height: 300px;
+    background: #F2F2F2  0% 0% ;
+    border-radius: 0px;
+ }
+
+ .soojo{
+  margin: 25px;
+    width: 250px;
+    height:250px;
+    margin-left: 25px;
+    
+ }
+ .titulo1{
+    margin-left: 25%;  
+    margin-top: -210px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+ }
+ .parrafo1{
+    margin-left: 25%;  
+    margin-top: 65px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+ }
+ .titulo{
+    
+    margin-left: 35%;
+    margin-top: -45px; 
+ }
+ .titulo2{
+    margin-left: 35%;
+    margin-top: -45px; 
+ }
+ .boton{
+    width: 100px;
+    height: 30px;
+    margin-left: 335px;
+    color: rgb(247, 247, 247);
+    background: #000000;
+    border-radius: 10%;
+    
+ }

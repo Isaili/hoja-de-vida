@@ -1,0 +1,117 @@
+section{
+    background-color: black;
+}
+.section1{
+    background: #49087b;
+    width:100% ;
+    height: 555px;
+
+}
+.imagen1{
+    height: 30px;
+    
+}
+body{
+    background-color: black;
+}
+.imagen{
+    margin-top: 40px;
+    width: 525px;
+    height: 700px;
+    margin-left: 640px;
+    border-radius: 10%;
+}
+.titulo{
+    color: white;
+    font-size: 66px;
+    margin-left: 12%;
+    margin-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.parrafo{
+    height: 140px;
+    width: 25%;
+   
+    margin-left:12% ;
+    margin-top: -2%;
+}
+.secuencia{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.contenedor1{
+    width: 100%;
+    height: 580px;
+    background-color: rgb(220, 220, 220);
+    margin-top: 12%;
+    padding-top: 5%;
+   
+}
+.contenedor2{
+    width: 90%;
+    height: 505px;
+  
+   background: black;
+   
+    margin-left: 5%;
+    display: flex;
+    
+  
+}
+.imagen2{
+    width: 360px;
+    height: 500px;
+   
+}
+.titulo-e1{
+    color: blue;
+    
+ 
+}
+/* .isa{
+    border: 2px solid #3498db; 
+    width: 45px;
+    height: 67px;
+    margin-left: 7%;
+    
+ 
+    
+    /* Color del borde en este caso es azul (#3498db) */
+/* .div{
+    border: 2px solid #3498db; 
+    width: 45px;
+    height: 67px;
+    margin-left: 7%;
+} */
+
+.ep{
+    color: rgb(249, 249, 249);
+    margin-left: 53px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ep1{
+    color: rgb(247, 247, 247);
+    margin-left: 53px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p1{
+color: rgb(255, 255, 255);
+margin-top: 67px;
+margin-left: 53px;
+margin-right: 53px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.div-letras{
+  
+    width: 829px;
+    height: 500px; 
+    
+}
